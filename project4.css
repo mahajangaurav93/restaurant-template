@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.font, h2, h3, h1, h4 {
+    font-family: 'Kaushan Script', cursive;
+} 
+li a, li a:hover {
+    color: white;
+}
+.one {
+    color: white;
+    background-image: url('./image/granny-blog8.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+}
+.bar {
+    color: white;
+    font-size: 1.5em;
+    outline: none;
+}
+.bar:hover{
+    color: white;
+    outline: none;
+}
+.one button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: 1px solid white;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    color: white;
+    padding: 10px;
+}
+.second1 span {
+    display: inline-block;
+    width: 100px;
+    font-size: 1.3em;
+}
+.second1 span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.second img {
+    height: 200px;
+    width: 380px;
+}
+.three {
+    background: url("./image/italian-food.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    height: 160vh;
+}
+.three1 {
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    top:30%;
+    left: 10%;
+    padding: 20px;
+    width: 80%;
+}
+.four {
+    position: relative;
+    height: 260vh;
+}
+.four1 h3, .four1 p {
+    padding: 20px 0;
+}
+.four1 {
+    position: absolute;
+    z-index: 1;
+    background: white;
+    width: 80%;
+    left: 10%;
+}
+.four2 {
+    background: url("./image/four2.jpg");
+    position: absolute;
+    z-index: -1;
+    height: auto;
+    width: 100%;
+    top: 28%;
+    left: 0;
+}
+.five {
+    margin: 50px 0;
+    padding: 80px 0;
+    background-image: url("./image/five.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.five1 {
+    display: flex;
+    margin: 20px 100px;
+    justify-content: space-around;
+}
+.five1 > div {
+    width: 31%;
+    padding: 10px;
+    background: white;
+}
+
+.five1 h3 {
+    text-align: justify;
+}
+.six1 {
+    display: flex;
+    margin: 20px 60px;
+    justify-content: space-around;
+    text-align: left;
+}
+.six1 > div {
+    width: 22%;
+}
+.six1 small, .six1 p, .six1 h3 {
+    padding:5px 20px;
+}
+.six1 img {
+    height: 20%;
+}
+.seven {
+    background: rgb(37, 36, 36);
+    color: white;
+    padding: 80px 100px;
+    height: 350px;
+    position: relative;
+    margin-top: -200px;
+}
+.seven i {
+    margin: 10px;
+    color: rgb(204, 113, 70);
+}
+.seven input {
+    border: none;
+    outline: none;
+    overflow: hidden;
+    color: white;
+    background:transparent;
+    width: 30%;
+    box-sizing: border-box;
+}
+.seven b {
+    color: rgb(204, 113, 70);
+}
+.seven1 {
+    position: absolute;
+    bottom: 5px;
+    left: 30%;
+}
+.seven1 span {
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding:15px 10px;
+    margin: 10px;
+}
+.seven .card {
+    position: absolute;
+    top: -30%;
+    left: 40%;
+    background: black;
+    padding: 20px;
+    border-radius: 10px;
+}
+.seven .card button {
+    background: transparent;
+    width: 100%;
+    color: rgb(204, 113, 70);
+    border: 1px solid rgb(204, 113, 70);
+    padding: 10px;
+}
+
+@media(max-width:768px) {
+    .five1{
+        flex-wrap: wrap;
+    }
+    .five1>div {
+        width: 100%;
+        margin: 10px;
+    }
+    .four {
+        height: 930vh;
+    }
+    .six1 {
+        flex-wrap: wrap;
+        margin:0;
+    }
+    .six1>div {
+        width: 100%;
+        margin: 0;
+    }
+    .six1 small, .six1 p, .six1 h3 {
+        padding:0;
+    }
+    .six1 img {
+        height:40%;
+        width: 100%;
+    }
+    .seven {
+        margin-top: 30vh;
+        height: 150vh;
+    }
+    .seven .card {
+        left: 25%;
+        top:-20%;
+    }
+    .sv1 {
+        margin-top: 35vh;
+    }
+    .seven1 {
+        left: 0;
+    }
+    .seven1 i {
+        margin: 20px;
+    }
+}
